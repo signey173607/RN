@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StatusBar } from 'expo-status-bar';
 import Home from './HomeComponent';
 import Directory from './DirectoryComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
