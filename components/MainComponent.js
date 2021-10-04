@@ -5,7 +5,6 @@ import CampsiteInfo from './CampsiteInfoComponent';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
 import Constants from 'expo-constants';
-import { MaskedViewBase } from '@react-native-community/masked-view';
 import { View, Platform } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createDrawerNavigator } from 'react-navigation-drawer';
