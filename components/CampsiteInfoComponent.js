@@ -29,22 +29,17 @@ function RenderComments({comments}) {
                 <Text style={{fontSize: 12}}>{item.rating} Stars</Text>
                 <Text style={{fontSize: 12}}>{`--${item.author}, ${item.date}`}</Text>
             </View>
-        )
-    } 
-
-    if(comments) {
-
-    }
-
-        return (
-            <Card title='Comments'>
-                <FlatList 
-                    data={comments}
-                    renderItem={renderCommentItem}
-                    keyExtractor={item = item.id.toString()}
-                />
-            </Card>
         );
+    }; 
+    return (
+        <Card title='Comments'>
+            <FlatList 
+                data={comments}
+                renderItem={renderCommentItem}
+                keyExtractor={item = item.id.toString()}
+            />
+        </Card>
+    );
 }
 
 class CampsiteInfo extends Component {
