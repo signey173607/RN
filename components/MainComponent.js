@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import { StatusBar } from 'expo-status-bar';
-// import MaskedView from '@react-native-community/masked-view';
 import Home from './HomeComponent';
 import Directory from './DirectoryComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
