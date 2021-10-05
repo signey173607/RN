@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/mulukengebremariam/.nvm/versions/node/v14.17.5/bin/node /Users/mulukengebremariam/.yarn/bin/yarnpkg add react-reanimated@1
+  /Users/mulukengebremariam/.nvm/versions/node/v14.17.5/bin/node /Users/mulukengebremariam/.yarn/bin/yarn.js add react-reanimated@2
 
 PATH: 
   /Users/mulukengebremariam/.yarn/bin:/Users/mulukengebremariam/.config/yarn/global/node_modules/.bin:/Users/mulukengebremariam/Library/Android/sdk/platform-tools:/Users/mulukengebremariam/Library/Android/sdk/platform-tools:/Users/mulukengebremariam/.nvm/versions/node/v14.17.5/bin:/opt/apache-maven-3.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/mulukengebremariam/.yarn/bin:/Users/mulukengebremariam/.config/yarn/global/node_modules/.bin:/Users/mulukengebremariam/Library/Android/sdk/platform-tools:/Users/mulukengebremariam/.nvm/versions/node/v14.17.5/bin:/opt/apache-maven-3.5.0/bin:/usr/local/bin
