@@ -60,8 +60,7 @@ class CampsiteInfo extends Component {
         super(props);
         this.state = {
             campsites: CAMPSITES,
-            comments: COMMENTS,
-            favorite: false
+            comments: COMMENTS
         };
     }
 
@@ -79,10 +78,7 @@ class CampsiteInfo extends Component {
         const comments = this.state.comments.filter(comment => comment.campsiteId === campsiteId);
         return (
             <ScrollView>
-                <RenderCampsite campsite={campsite}
-                    favorite={this.state.favorite}
-                    markFavorite={() => this.markFavorite()}
-                />
+                <RenderCampsite campsite={campsite} />
                 <RenderComments comments={comments} />
             </ScrollView>
         );
